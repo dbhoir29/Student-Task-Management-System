@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: "https://student-task-management-system-backend.onrender.com/tasks",
 });
 
 export default api;
