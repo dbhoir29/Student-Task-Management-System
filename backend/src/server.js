@@ -13,7 +13,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: "https://student-task-management-system-frontend.onrender.com/",
+  origin: "https://student-task-management-system-frontend.onrender.com",
+  credentials: true
 }));
 
 app.use(express.json());
